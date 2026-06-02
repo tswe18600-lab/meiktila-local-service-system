@@ -14,7 +14,7 @@ function sendStatusEmail($user_email, $user_name, $status, $service_name) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'tswe18600@gmail.com'; 
-        $mail->Password   = 'cubu exdd ilrj jxfy'; 
+        $mail->Password   = 'YOUR_GMAIL_APP_PASSWORD_HERE'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
