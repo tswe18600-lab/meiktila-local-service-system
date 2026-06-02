@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // 🔴 သင့် Gmail
         $mail->Username   = 'tswe18600@gmail.com';
-        $mail->Password   = 'cubu exdd ilrj jxfy'; // Gmail App Password
+        $mail->Password   = 'GMAIL_APP_RASSWORD'; // Gmail App Password
 
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
