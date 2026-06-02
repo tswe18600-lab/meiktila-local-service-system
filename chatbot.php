@@ -54,7 +54,7 @@ while ($row = $result->fetch_assoc()) {
 // FALLBACK TO OPENAI API
 // =====================
 if (!$found) {
-    $api_key = "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"; // ← သင့် OpenAI API key ထည့်ပါ
+    $api_key = "YOUR_OPENAI_API_KEY_HERE"; 
     $prompt = "User: $userMessage\nBot:";
 
     $ch = curl_init();
